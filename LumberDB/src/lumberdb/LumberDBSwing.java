@@ -125,7 +125,7 @@ public class LumberDBSwing extends javax.swing.JFrame {
                         .addComponent(bNo_LCT, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(21, 21, 21)
                         .addComponent(cName_TFCT, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
+                        .addGap(0, 6, Short.MAX_VALUE))
                     .addGroup(CreateTransactionPanelLayout.createSequentialGroup()
                         .addComponent(cName_LCT, javax.swing.GroupLayout.PREFERRED_SIZE, 131, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
@@ -206,9 +206,7 @@ public class LumberDBSwing extends javax.swing.JFrame {
                         .addGap(29, 29, 29)
                         .addComponent(mType_LMB))
                     .addComponent(bNo_LMB)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, MillBundlePanelLayout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(notes_LMB)))
+                    .addComponent(notes_LMB, javax.swing.GroupLayout.Alignment.TRAILING))
                 .addGap(30, 30, 30)
                 .addGroup(MillBundlePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(bNo_TFMB)
@@ -222,7 +220,7 @@ public class LumberDBSwing extends javax.swing.JFrame {
         MillBundlePanelLayout.setVerticalGroup(
             MillBundlePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(MillBundlePanelLayout.createSequentialGroup()
-                .addGap(21, 21, 21)
+                .addContainerGap()
                 .addGroup(MillBundlePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(MillBundlePanelLayout.createSequentialGroup()
@@ -237,7 +235,7 @@ public class LumberDBSwing extends javax.swing.JFrame {
                     .addComponent(notes_LMB))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(sButtonMB, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(21, Short.MAX_VALUE))
+                .addContainerGap(26, Short.MAX_VALUE))
         );
         MillBundlePanel.setLayer(mType_LMB, javax.swing.JLayeredPane.DEFAULT_LAYER);
         MillBundlePanel.setLayer(bNo_LMB, javax.swing.JLayeredPane.DEFAULT_LAYER);
