@@ -25,8 +25,11 @@ Create Bundle CHECK
 	•	thickness blank
 	•	BF blank
 	•	Notes blank
-	•	Mill type pull down
+	•	Width blank
+	•	Length blank
 	•	location pull down
+	•	Mill type pull down
+	•	Price blank
 	•	Submit button
 		⁃	Read out Bundle number
 Create Warehouse/Mill
