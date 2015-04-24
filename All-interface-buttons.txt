@@ -1,0 +1,79 @@
+Create Salesman
+	•	First Name Blank
+	•	Last Name Blank
+	•	SSN blank
+	•	Location pull down
+	•	Submit Button
+	⁃	Confirmation Message
+Create Client
+	•	First Name Blank
+	•	Last Name Blank
+	•	SSN Blank
+	•	Company Name Blank
+	•	Address Blank
+	•	Phone # Blank
+	•	Submit
+		⁃	Confirmation Message
+Mill Bundle CHECK
+	•	Bundle# blank
+	•	Submit button
+		⁃	Notes blank
+		⁃	milled type pulldown
+		⁃	Update Button
+Create Bundle CHECK
+	•	species pulldown
+	•	thickness blank
+	•	BF blank
+	•	Notes blank
+	•	Mill type pull down
+	•	location pull down
+	•	Submit button
+		⁃	Read out Bundle number
+Create Warehouse/Mill
+	•	Location Name Blank
+	•	Phone Number Blank
+	•	Submit Button
+		⁃	Create Warehouse-Mill ID
+Move Bundle CHECK
+	•	Bundle# blank
+	•	Submit button
+		⁃	Location pull down
+		⁃	update button
+Create Transaction 
+	•	Salesman pulldown
+	•	Client pulldown
+	•	No of Bundles blank or pull down
+		⁃	Bundle No# blank
+		⁃	Bundle No# blank
+		⁃	Bundle No# blank
+		⁃	Submit Button
+		⁃	Price given
+		⁃	Accept button
+			⁃	Create Transaction ID
+Update Price
+	•	Bundle# blank
+	•	Submit button
+		⁃	Current Price given
+		⁃	New Price blank
+		⁃	Update button
+Bundle Count
+	•	species pull down
+	•	location pull down
+	•	submit button
+		⁃	location has given BF worth of species
+		⁃	given number of bundles
+Warehouse Stock
+	•	Location blank
+	•	Submit button
+		⁃	provides a table of stock info
+Break Bundle
+	•	Bundle# blank
+	•	New BF blank
+	•	Submit Button
+		⁃	provide info on stock updated
+Ship Bundle
+	•	Bundle# blank
+	•	Company Name blank
+	•	Submit Button
+		⁃	check bundle#=transactionID.bndl# & companyName=transction.companyname
+		⁃	if successful delete the bundle
